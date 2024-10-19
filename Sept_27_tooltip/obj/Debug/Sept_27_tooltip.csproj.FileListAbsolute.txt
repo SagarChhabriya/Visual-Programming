@@ -1,0 +1,16 @@
+C:\Users\Mr Sagar Kumar\source\repos\Sept_27_tooltip\bin\Debug\Sept_27_tooltip.exe.config
+C:\Users\Mr Sagar Kumar\source\repos\Sept_27_tooltip\bin\Debug\Sept_27_tooltip.exe
+C:\Users\Mr Sagar Kumar\source\repos\Sept_27_tooltip\bin\Debug\Sept_27_tooltip.pdb
+C:\Users\Mr Sagar Kumar\source\repos\Sept_27_tooltip\obj\Debug\Sept_27_tooltip.csproj.AssemblyReference.cache
+C:\Users\Mr Sagar Kumar\source\repos\Sept_27_tooltip\obj\Debug\Sept_27_tooltip.Form1.resources
+C:\Users\Mr Sagar Kumar\source\repos\Sept_27_tooltip\obj\Debug\Sept_27_tooltip.Properties.Resources.resources
+C:\Users\Mr Sagar Kumar\source\repos\Sept_27_tooltip\obj\Debug\Sept_27_tooltip.csproj.GenerateResource.cache
+C:\Users\Mr Sagar Kumar\source\repos\Sept_27_tooltip\obj\Debug\Sept_27_tooltip.csproj.CoreCompileInputs.cache
+C:\Users\Mr Sagar Kumar\source\repos\Sept_27_tooltip\obj\Debug\Sept_27_tooltip.exe
+C:\Users\Mr Sagar Kumar\source\repos\Sept_27_tooltip\obj\Debug\Sept_27_tooltip.pdb
+C:\Users\Mr Sagar Kumar\source\repos\Sept_27_tooltip\bin\Debug\Interop.WMPLib.dll
+C:\Users\Mr Sagar Kumar\source\repos\Sept_27_tooltip\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Mr Sagar Kumar\source\repos\Sept_27_tooltip\obj\Debug\Interop.WMPLib.dll
+C:\Users\Mr Sagar Kumar\source\repos\Sept_27_tooltip\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Mr Sagar Kumar\source\repos\Sept_27_tooltip\obj\Debug\Sept_27_tooltip.csproj.ResolveComReference.cache
+C:\Users\Mr Sagar Kumar\source\repos\Sept_27_tooltip\obj\Debug\Sept_27_tooltip.Component1.resources
