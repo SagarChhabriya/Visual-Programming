@@ -1,0 +1,7 @@
+C:\Users\Mr Sagar Kumar\source\repos\ConsoleApp2_Quiz\bin\Debug\ConsoleApp2_Quiz.exe.config
+C:\Users\Mr Sagar Kumar\source\repos\ConsoleApp2_Quiz\bin\Debug\ConsoleApp2_Quiz.exe
+C:\Users\Mr Sagar Kumar\source\repos\ConsoleApp2_Quiz\bin\Debug\ConsoleApp2_Quiz.pdb
+C:\Users\Mr Sagar Kumar\source\repos\ConsoleApp2_Quiz\obj\Debug\ConsoleApp2_Quiz.csproj.AssemblyReference.cache
+C:\Users\Mr Sagar Kumar\source\repos\ConsoleApp2_Quiz\obj\Debug\ConsoleApp2_Quiz.csproj.CoreCompileInputs.cache
+C:\Users\Mr Sagar Kumar\source\repos\ConsoleApp2_Quiz\obj\Debug\ConsoleApp2_Quiz.exe
+C:\Users\Mr Sagar Kumar\source\repos\ConsoleApp2_Quiz\obj\Debug\ConsoleApp2_Quiz.pdb
