@@ -1,0 +1,10 @@
+C:\Users\Mr Sagar Kumar\source\repos\Sept_20_File_Dialog\bin\Debug\Sept_20_File_Dialog.exe.config
+C:\Users\Mr Sagar Kumar\source\repos\Sept_20_File_Dialog\bin\Debug\Sept_20_File_Dialog.exe
+C:\Users\Mr Sagar Kumar\source\repos\Sept_20_File_Dialog\bin\Debug\Sept_20_File_Dialog.pdb
+C:\Users\Mr Sagar Kumar\source\repos\Sept_20_File_Dialog\obj\Debug\Sept_20_File_Dialog.csproj.AssemblyReference.cache
+C:\Users\Mr Sagar Kumar\source\repos\Sept_20_File_Dialog\obj\Debug\Sept_20_File_Dialog.Form1.resources
+C:\Users\Mr Sagar Kumar\source\repos\Sept_20_File_Dialog\obj\Debug\Sept_20_File_Dialog.Properties.Resources.resources
+C:\Users\Mr Sagar Kumar\source\repos\Sept_20_File_Dialog\obj\Debug\Sept_20_File_Dialog.csproj.GenerateResource.cache
+C:\Users\Mr Sagar Kumar\source\repos\Sept_20_File_Dialog\obj\Debug\Sept_20_File_Dialog.csproj.CoreCompileInputs.cache
+C:\Users\Mr Sagar Kumar\source\repos\Sept_20_File_Dialog\obj\Debug\Sept_20_File_Dialog.exe
+C:\Users\Mr Sagar Kumar\source\repos\Sept_20_File_Dialog\obj\Debug\Sept_20_File_Dialog.pdb

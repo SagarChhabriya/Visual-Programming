@@ -1,0 +1,11 @@
+C:\Users\Mr Sagar Kumar\source\repos\Sept_03\bin\Debug\Sept_03.exe.config
+C:\Users\Mr Sagar Kumar\source\repos\Sept_03\bin\Debug\Sept_03.exe
+C:\Users\Mr Sagar Kumar\source\repos\Sept_03\bin\Debug\Sept_03.pdb
+C:\Users\Mr Sagar Kumar\source\repos\Sept_03\obj\Debug\Sept_03.csproj.AssemblyReference.cache
+C:\Users\Mr Sagar Kumar\source\repos\Sept_03\obj\Debug\Sept_03.Form1.resources
+C:\Users\Mr Sagar Kumar\source\repos\Sept_03\obj\Debug\Sept_03.Properties.Resources.resources
+C:\Users\Mr Sagar Kumar\source\repos\Sept_03\obj\Debug\Sept_03.csproj.GenerateResource.cache
+C:\Users\Mr Sagar Kumar\source\repos\Sept_03\obj\Debug\Sept_03.csproj.CoreCompileInputs.cache
+C:\Users\Mr Sagar Kumar\source\repos\Sept_03\obj\Debug\Sept_03.exe
+C:\Users\Mr Sagar Kumar\source\repos\Sept_03\obj\Debug\Sept_03.pdb
+C:\Users\Mr Sagar Kumar\source\repos\Sept_03\obj\Debug\Sept_03.Form2.resources

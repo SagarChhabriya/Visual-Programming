@@ -1,0 +1,10 @@
+C:\Users\Mr Sagar Kumar\source\repos\Sept_10_Date_Time_Picker\bin\Debug\Sept_10_Date_Time_Picker.exe.config
+C:\Users\Mr Sagar Kumar\source\repos\Sept_10_Date_Time_Picker\bin\Debug\Sept_10_Date_Time_Picker.exe
+C:\Users\Mr Sagar Kumar\source\repos\Sept_10_Date_Time_Picker\bin\Debug\Sept_10_Date_Time_Picker.pdb
+C:\Users\Mr Sagar Kumar\source\repos\Sept_10_Date_Time_Picker\obj\Debug\Sept_10_Date_Time_Picker.csproj.AssemblyReference.cache
+C:\Users\Mr Sagar Kumar\source\repos\Sept_10_Date_Time_Picker\obj\Debug\Sept_10_Date_Time_Picker.Form1.resources
+C:\Users\Mr Sagar Kumar\source\repos\Sept_10_Date_Time_Picker\obj\Debug\Sept_10_Date_Time_Picker.Properties.Resources.resources
+C:\Users\Mr Sagar Kumar\source\repos\Sept_10_Date_Time_Picker\obj\Debug\Sept_10_Date_Time_Picker.csproj.GenerateResource.cache
+C:\Users\Mr Sagar Kumar\source\repos\Sept_10_Date_Time_Picker\obj\Debug\Sept_10_Date_Time_Picker.csproj.CoreCompileInputs.cache
+C:\Users\Mr Sagar Kumar\source\repos\Sept_10_Date_Time_Picker\obj\Debug\Sept_10_Date_Time_Picker.exe
+C:\Users\Mr Sagar Kumar\source\repos\Sept_10_Date_Time_Picker\obj\Debug\Sept_10_Date_Time_Picker.pdb

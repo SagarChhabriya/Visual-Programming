@@ -1,0 +1,16 @@
+C:\Users\Mr Sagar Kumar\source\repos\Practice\bin\Debug\Practice.exe.config
+C:\Users\Mr Sagar Kumar\source\repos\Practice\bin\Debug\Practice.exe
+C:\Users\Mr Sagar Kumar\source\repos\Practice\bin\Debug\Practice.pdb
+C:\Users\Mr Sagar Kumar\source\repos\Practice\obj\Debug\Practice.csproj.AssemblyReference.cache
+C:\Users\Mr Sagar Kumar\source\repos\Practice\obj\Debug\Practice.ColorChanger.resources
+C:\Users\Mr Sagar Kumar\source\repos\Practice\obj\Debug\Practice.Form1.resources
+C:\Users\Mr Sagar Kumar\source\repos\Practice\obj\Debug\Practice.Properties.Resources.resources
+C:\Users\Mr Sagar Kumar\source\repos\Practice\obj\Debug\Practice.csproj.GenerateResource.cache
+C:\Users\Mr Sagar Kumar\source\repos\Practice\obj\Debug\Practice.csproj.CoreCompileInputs.cache
+C:\Users\Mr Sagar Kumar\source\repos\Practice\obj\Debug\Practice.exe
+C:\Users\Mr Sagar Kumar\source\repos\Practice\obj\Debug\Practice.pdb
+C:\Users\Mr Sagar Kumar\source\repos\Practice\obj\Debug\Practice.GroupBox.resources
+C:\Users\Mr Sagar Kumar\source\repos\Practice\obj\Debug\Practice.Timer.resources
+C:\Users\Mr Sagar Kumar\source\repos\Practice\obj\Debug\Practice.DateTimePicker.resources
+C:\Users\Mr Sagar Kumar\source\repos\Practice\obj\Debug\Practice.FileDialog.resources
+C:\Users\Mr Sagar Kumar\source\repos\Practice\obj\Debug\Practice.Browser.resources
