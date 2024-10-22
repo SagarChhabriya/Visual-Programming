@@ -934,3 +934,80 @@ namespace PageDynamicLocation
 
 ```
 
+# VB Book
+
+Text Property: &OK, E&xit
+
+Although .NET originally targetted and still targets only the windows platform, you are seeing development communities using open-source projects to convert .NET to run on other platforms such as Linux and Unix. This means that a program written by a .NET developer on windows could run unchanged on Linux. In fact, the Mono Project (www.mono-project.com) has already released several version of its product. This project has developed an open-source version of a C# and VB.NET compiler, a runtime for the Common Language Infrastrucutre(CLI, also known as the Commong Intermediate Language, CIL), a subset of the .NET classes, and other .NET goodies independent of Microsoft's involvment. 
+
+
+DAO:  Data Active Object
+COM: Component Object Model
+ADO: ActiveX Data Objects
+
+
+# Visual Programming Language
+
+## Theory
+- **Desktop Application + Console Programming**
+- **Event Driven Programming**
+- **Use of Visual Programming (VP)**
+
+## History
+- **Structured Programming**
+- **Use of .NET Framework**
+  - CLR (Common Language Runtime)
+  - CIL (Common Intermediate Language)
+- **Architecture of .NET**
+- **Regular vs Visual Programming Language**
+- **Java vs C#**
+- **Object-Oriented Programming Language**
+  - **Four Principles**:
+    - Encapsulation
+    - Abstraction
+    - Inheritance
+    - Polymorphism
+
+## Practical
+- **Sorting Programs**:
+  - Bubble Sort
+  - Selection Sort
+- **Control Statements**:
+  - Loops: `for`, `while`, `do while`
+  - Conditional Statements: `if`, `if else`, `else`
+  - `Switch`
+- **Random Color Changing**
+- **Picture Handling**:
+  - Set a picture using `PictureBox`
+  - `Hide()`
+  - `Show()`
+  - `Timer`
+  - Picture changes on click
+  - Picture change with timer
+- **User Interface Elements**:
+  - Use of Radio Button, Checkbox, ListBox
+  - FontDialog
+  - OpenFileDialog
+    - Filter
+  - ProgressBar
+  - BackgroundWorker:
+    - `DoWork`
+    - `ProgressChanged`
+    - `RunWorkerCompleted`
+  - DataTable, DataSet
+  - Windows Media Player
+  - Panel
+  - ToolTip
+  - GridView
+
+
+
+## Mid
+1. Control Structure, OOP, Selection sort in console (7 Marks)
+2. .NET Architecture, previous and Next button code on label (7 Marks)
+3. Timer importance, its applications, automated picture code (8 Marks)
+4. Definitions (8 Marks)
+    - Radio and Checkbox
+    - List and RichTextBox
+    - Sync and Async
+    - Label and TextBox
