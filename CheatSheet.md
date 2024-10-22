@@ -219,3 +219,718 @@ The .NET Framework is a comprehensive software development platform designed by 
 ## Summary
 The architecture of the .NET Framework is designed to provide a robust, scalable, and secure environment for application development. By leveraging the CLR and BCL, along with key concepts like application domains and assemblies, the .NET Framework simplifies many aspects of programming, allowing developers to create high-quality applications efficiently. Its emphasis on managed code and interoperability among languages fosters a diverse ecosystem that can cater to a wide range of development needs.
 
+## Table of contents
+1. Bubble Sort
+2. Selection Sort
+3. Color Changer
+4. Stripmenu
+5. Group Box (Radio Button, Check Box, List Box)
+6. Timer
+7. Picture
+8. Background
+9. DateTimePicker
+10. FileDialog
+11. BackgroundWorker
+12. Tooltip
+13. DataGridView
+
+
+## Sorting
+
+```js
+using System;
+
+public class Class2
+{
+    public Class2()
+    {
+
+    }
+    static void Main(string[] args){
+        //Console.WriteLine("RADHE RADHE FROM PROGRAM.CS");
+        Class2 obj = new Class2();
+        int[] arr = { 7, 2, 3, 5, 4, 6, 1, 8, 9 };
+        //Console.WriteLine(obj.contains(arr, 5));
+
+        //obj.reverseArray();
+
+        int[] result = bubblesort(arr);
+        Console.WriteLine(string.Join(" ",result));
+        Console.WriteLine(string.Join(" ", selectionsort(arr)));
+        Console.ReadKey();
+    }
+
+     public static int[] selectionsort(int[] arr){
+     for (int i = 0; i < arr.Length - 1; i++)
+     {
+         int start = i;
+         for (int j = i + 1; j < arr.Length; j++)
+         {
+             if (arr[j] < arr[start])
+             {
+                 start = j;
+             }
+         }
+         int temp = arr[i];
+         arr[i] = arr[start];
+         arr[start] = temp;
+     }
+     return arr;
+ }
+
+ public static int[] ForLoopSelectionSort(int[] arr)
+{
+    int end = arr.Length; // Get the length of the array
+
+    // Step 2: Repeat While i < end - 1
+    for (int i = 0; i < end - 1; i++)
+    {
+        // Step 3: Set j := i + 1
+        for (int j = i + 1; j < end; j++)
+        {
+            // Step 5: If arr[i] > arr[j] then interchange
+            if (arr[i] > arr[j])
+            {
+                // Interchange
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+        // Step 7 is implicit; for loop automatically increments i
+    }
+
+    // Step 8: Exit
+    return arr;
+}
+
+
+
+ public static int[] bubblesort(int[] arr)
+ {
+     int end = arr.Length;
+     for (int i = 0; i < end - 1; i++)
+     {
+         for (int j = 0; j < end - i - 1; j++)
+         {
+             if (arr[j] > arr[j + 1])
+             {
+                 // Swap arr[j] and arr[j+1]
+                 int temp = arr[j];
+                 arr[j] = arr[j + 1];
+                 arr[j + 1] = temp;
+             }
+         }
+     }
+     return arr;
+ }
+
+
+}
+
+```
+
+
+
+
+
+
+## Color Changer
+```js
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace WindowsFormsApp5
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            //BackColor = Color.Turquoise;
+
+            int r, g, b;
+            Random random = new Random();
+            r = random.Next(0,255);
+            g = random.Next(0,255); 
+            b = random.Next(0,255); 
+            
+            
+            BackColor = Color.FromArgb(r, g, b);    
+            WindowState = FormWindowState.Maximized;
+        }
+    }
+}
+```
+
+
+## Strip Menu
+```python
+#  Inside Partial Class
+ 
+ private void pictureHandlerToolStripMenuItem_Click(object sender, EventArgs e)
+ {
+     this.Hide();
+     new Form2().Show();
+ }
+
+ private void backgroundToolStripMenuItem_Click(object sender, EventArgs e)
+ {
+     this.Hide();
+     new Form3().Show(); 
+ }
+
+```
+
+
+## Group Box (Radio Button, Check Box, List Box)
+## Timer
+
+```js
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Sept_06
+{
+    public partial class Form1 : Form
+    {
+        int k = 1;
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+            BackColor = Color.Beige;
+            label1.Text = Convert.ToString(k);
+            timer1.Interval = 1000;
+            timer1.Start();
+        // Timer tick event will fire
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            k = k + 1;
+            if (k > 10)
+            {
+                k = 1;
+            }
+            label1.Text = k.ToString();
+        }
+    }
+}
+
+```
+
+
+## Picture Changer
+```js
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Sept_06
+{
+    public partial class Form2 : Form
+    {   
+        static int index = 1;
+        string path = "D:\\Ao\\Code\\WebCode\\Web-Engineering\\100-Days-of-Code\\Week-2\\responsive-blog\\css\\assets\\dog" + index.ToString() + ".jpg";
+        public Form2()
+        {
+            InitializeComponent();
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+            BackColor = Color.Khaki;
+            timer1.Interval = 1000;
+            timer1.Start(); 
+            try
+            {
+                pictureBox1.Image = Image.FromFile(path);   
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            index = index + 1;
+            string path = "D:\\Ao\\Code\\WebCode\\Web-Engineering\\100-Days-of-Code\\Week-2\\responsive-blog\\css\\assets\\dog" + index.ToString() + ".jpg";
+            if (index > 10)
+            {
+                index = 1; 
+            }
+            try
+            {
+                pictureBox1.Image = Image.FromFile(path);
+            }
+            catch(Exception ex)
+            {
+
+            }
+
+
+        }
+    }
+}
+
+```
+
+
+## Background Changer
+```js
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Sept_06
+{
+    public partial class Form3 : Form
+    {
+        public Form3()
+        {
+            InitializeComponent();
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+            BackColor = Color.Aqua;
+            //timer1.Interval = 1000;
+            //timer1.Start();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            //Random rnd= new Random();
+            //int r = rnd.Next(0, 255);
+            //int g = rnd.Next(0, 255);
+            //int b = rnd.Next(0, 255);
+
+            //BackColor = Color.FromArgb(r, g, b);
+
+        }
+    }
+}
+
+```
+
+
+## DateTimePicker
+```js
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Sept_10_Date_Time_Picker
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            label1.Text = dateTimePicker1.Text;
+        }
+
+        private void fontDialog1_Apply(object sender, EventArgs e)
+        {
+
+            // apply font to the label
+            label1.Font = fontDialog1.Font;
+            //fontDialog1_Apply.Apply += new EventHandler(fontDialog1_Apply);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            fontDialog1.ShowDialog();
+            label1.Font = fontDialog1.Font;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            colorDialog1.ShowDialog();
+            label1.ForeColor = colorDialog1.Color;  
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FontDialog fontObject = new FontDialog();
+            if(fontDialog1.ShowDialog() == DialogResult.OK)
+            {
+                fontObject.ShowDialog();
+                label1.Font = fontObject.Font;
+            }
+
+           
+        }
+
+        private void diceGameToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+
+            // open the dice game form
+            new Form2().Show();
+            this.Hide();
+        }
+    }
+}
+
+```
+
+
+## FileDialog
+```js
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Sept_20_File_Dialog
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void SelectFile_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog fileDialog = new OpenFileDialog();
+            // choose image
+            fileDialog.Filter = "ChooseImage(*.png;*.jgp;*.GIF)|*.png;*.jgp;*.GIF";
+            fileDialog.ShowDialog();
+            pictureBox1.Image = Image.FromFile(fileDialog.FileName);
+            
+            for(int i = 0; i<100; i++)
+            {
+                progressBar1.Value = i;
+            }
+            
+        }
+    }
+}
+
+```
+
+
+## Background Worker
+```js
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Sept_24_Back___
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //backgroundWorker has 3 workress
+            // 1. Do worker 2. Progress changed 3. Work completed
+            // Do work       progress changed       completedtask
+            
+            //backgroundWorker1.WorkerReportsProgress = true;
+            //backgroundWorker1.WorkerSupportsCancellation = true;
+
+
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+            for (int i=1; i<= 100; i++){
+                Thread.Sleep(90);
+                //backgroundWorker1.ProgressChanged += backgroundWorker1_ProgressChanged; 
+                backgroundWorker1.ReportProgress(0);
+                // report progress will call the progress changed
+
+            }
+        }
+
+        private void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            progressBar1.Value += 1;
+            // after progress changed RunWorkerComplete will be called
+        }
+
+        private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            MessageBox.Show("Task Completed");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            backgroundWorker1.WorkerReportsProgress = true;
+            backgroundWorker1.RunWorkerAsync();
+
+            // by default the RunWorkerAsync will call the DoWorker
+            // 
+
+        }
+    }
+}
+
+```
+
+
+## Tooltip
+
+```js
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Sept_27_tooltip
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // Add a media player
+
+            
+        }
+
+        private void axWindowsMediaPlayer2_Enter(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer2.URL = "D:\\  \\Aditya Rikhari\\Aditya Rikhari - AANA NAHI (original).mp4";
+            axWindowsMediaPlayer2.URL = "D:\\  \\Aditya Rikhari\\Aditya Rikhari - Tinka (Official Music Video) ft. Mugdha Agarwal.mp4";
+
+
+
+        }
+    }
+}
+
+```
+
+
+## Datagridview
+
+```js
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace DataGridView
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            DataTable table_person = new DataTable();
+
+            //table.Columns.Add(
+            //    new DataColumn( CompanyName, typeof(string ) ) );
+
+            table_person.Columns.Add("Rno");
+            table_person.Columns.Add("Name");
+            table_person.Columns.Add("Address");
+
+            table_person.Rows.Add(101, "Sagar", "KK");
+            table_person.Rows.Add(101, "Qadeer", "KK");
+            table_person.Rows.Add(101, "Deepak", "KK");
+
+            DataTable  table_color = new DataTable();
+            
+            table_color.Columns.Add("Color");
+            table_color.Columns.Add("des");
+            table_color.Rows.Add("Red", "good");
+            table_color.Rows.Add("Green", "Exe");
+
+
+
+
+
+
+            // dataGridView1.DataSource = table_person;
+            DataSet set = new DataSet();
+            set.Tables.Add(table_color);
+            set.Tables.Add(table_person);
+
+
+            //dataGridView1.DataSource = set.Tables[0];
+            dataGridView1.DataSource = table_person;
+
+
+
+
+
+        }
+    }
+}
+
+```
+
+
+
+```js
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace PageDynamicLocation
+{
+    public partial class Form1 : Form
+    {
+        private int x = 50;
+        private int y = 50;
+
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+            WindowState = FormWindowState.Maximized;
+            timer1.Interval = 10;
+            timer1.Start();
+
+            
+            
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            
+
+
+            x++;
+            while(x < 500)
+            {
+                x++;
+                pictureBox1.Location = new Point(x, y);
+            }
+
+            //BackColor = Color.Red;
+            while (y < 500)
+            {
+                y++;
+                pictureBox1.Location = new Point(x, y);
+            }
+            //BackColor = Color.AliceBlue;
+            while (x > 0)
+            {
+                x--;
+                pictureBox1.Location = new Point(x, y);
+            }
+            //BackColor = Color.Yellow;
+
+            while (y > 0)
+            {
+                y--;
+                pictureBox1.Location = new Point(x, y);
+            }
+            //BackColor = Color.Green;
+
+
+            // after visiting all four sides, now place it to the center
+            Thread.Sleep(1000);
+            pictureBox1.Location = new Point(250, 250);
+            Thread.Sleep(1000);
+
+        }
+    }
+}
+
+```
+
