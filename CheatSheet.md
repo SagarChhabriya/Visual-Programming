@@ -84,3 +84,11 @@ The .NET CLR is a runtime environment that manages and executes code written in 
 - Garbage Collector
 - Just in Time Compiler
 - Metadata and Assemblies
+
+
+## 1. Managed code:
+Any language that is written in the .NET framework is managed code. Managed code use CLR, which looks after your applications by managing memory, handling security, allowing cross-language debugging, etc. The process of managed code is shown in the figure:
+
+
+## 2. Unmanaged code:
+The code developed outside the .NET framework is known as unmanaged code. Applications that do not run under the control of the CLR are said to be unmanaged. Certain languages such as C++ can be used to write such applications, such as low-level access functions of the operating system. Background compatibility with VB, ASP, and COM are examples of unmanaged code. This code is executed with the help of wrapper classes. The unmanaged code process is shown below:
