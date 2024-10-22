@@ -43,3 +43,44 @@ For example, if you want to print a multiplication table in a text-based languag
 | Requires less memory                  | Uses more memory                     |
 
 In summary, both regular and visual programming languages have their places. VPLs simplify programming for beginners, while regular languages offer more depth and efficiency for advanced users.
+
+
+## .NET Framework Components
+The .NET Framework is composed of four main components:
+- Common Language Runtime (CLR)
+- Framework Class Library (FCL),
+- Core Languages (WinForms, ASP.NET, and ADO.NET), and
+- Other Modules (WCF, WPF, WF, Card Space, LINQ, Entity Framework, Parallel LINQ, Task Parallel Library, etc.)
+
+
+## CLR (Common Language Runtime)
+It is a program execution engine that loads and executes the program. It converts the program into native code. It acts as an interface between the framework and operating system. It does exception handling, memory management, and garbage collection. Moreover, it provides security, type-safety, interoperability, and portablility. A list of CLR components are given below:
+
+
+## FCL (Framework Class Library)
+It is a standard library that is a collection of thousands of classes and used to build an application. The BCL (Base Class Library) is the core of the FCL and provides basic functionalities.
+
+
+## WinForms
+Windows Forms is a smart client technology for the .NET Framework, a set of managed libraries that simplify common application tasks such as reading and writing to the file system.
+
+## LINQ (Language Integrated Query)
+It is a query language, introduced in .NET 3.5 framework. It is used to make the query for data sources with C# or Visual Basics programming languages.
+
+# .NET Common Language Runtime (CLR)
+
+The .NET CLR is a runtime environment that manages and executes code written in any .NET programming language. It is the virtual machine component of the .NET framework.
+
+## Key Features
+- **Compilation**: Code from .NET-compliant languages is compiled into CLR's intermediate language, known as MSIL (Microsoft Intermediate Language), which is platform-independent and similar to Java bytecode.
+- **Metadata**: During compilation, metadata is generated and stored in a Manifest file, providing information about members and types required by CLR to execute MSIL code.
+- **Just-In-Time Compilation**: The CLR includes a Just-In-Time (JIT) compiler that converts MSIL code into native machine code, which is platform-dependent.
+- **Management**: CLR oversees memory management, thread management, exception handling, code execution, code safety, verification, and compilation.
+
+
+## The main components of CLR are:
+- Common type system
+- Common language speciation
+- Garbage Collector
+- Just in Time Compiler
+- Metadata and Assemblies
