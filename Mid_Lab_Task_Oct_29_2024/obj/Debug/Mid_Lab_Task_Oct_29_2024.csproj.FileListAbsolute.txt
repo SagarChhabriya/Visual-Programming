@@ -1,0 +1,10 @@
+C:\Users\Mr Sagar Kumar\source\repos\Mid_Lab_Task_Oct_29_2024\bin\Debug\Mid_Lab_Task_Oct_29_2024.exe.config
+C:\Users\Mr Sagar Kumar\source\repos\Mid_Lab_Task_Oct_29_2024\bin\Debug\Mid_Lab_Task_Oct_29_2024.exe
+C:\Users\Mr Sagar Kumar\source\repos\Mid_Lab_Task_Oct_29_2024\bin\Debug\Mid_Lab_Task_Oct_29_2024.pdb
+C:\Users\Mr Sagar Kumar\source\repos\Mid_Lab_Task_Oct_29_2024\obj\Debug\Mid_Lab_Task_Oct_29_2024.csproj.AssemblyReference.cache
+C:\Users\Mr Sagar Kumar\source\repos\Mid_Lab_Task_Oct_29_2024\obj\Debug\Mid_Lab_Task_Oct_29_2024.Form1.resources
+C:\Users\Mr Sagar Kumar\source\repos\Mid_Lab_Task_Oct_29_2024\obj\Debug\Mid_Lab_Task_Oct_29_2024.Properties.Resources.resources
+C:\Users\Mr Sagar Kumar\source\repos\Mid_Lab_Task_Oct_29_2024\obj\Debug\Mid_Lab_Task_Oct_29_2024.csproj.GenerateResource.cache
+C:\Users\Mr Sagar Kumar\source\repos\Mid_Lab_Task_Oct_29_2024\obj\Debug\Mid_Lab_Task_Oct_29_2024.csproj.CoreCompileInputs.cache
+C:\Users\Mr Sagar Kumar\source\repos\Mid_Lab_Task_Oct_29_2024\obj\Debug\Mid_Lab_Task_Oct_29_2024.exe
+C:\Users\Mr Sagar Kumar\source\repos\Mid_Lab_Task_Oct_29_2024\obj\Debug\Mid_Lab_Task_Oct_29_2024.pdb
