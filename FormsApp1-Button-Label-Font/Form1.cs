@@ -29,7 +29,7 @@ namespace WindowsFormsApp1
             label1.Font = new Font("Arial", 12, FontStyle.Bold);
             label2.Font = new Font("Arial", 12, FontStyle.Bold);
             label3.Font = new Font("Arial", 12, FontStyle.Bold);
-            label4.Font = new Font("Arial", 12, FontStyle.Bold);
+            label4.Font = new Font("Arial", 12, F-ontStyle.Bold);
 
             textBox1.Font = new Font("Arial", 12, FontStyle.Bold);
             textBox2.Font = new Font("aArial", 12, FontStyle.Bold);
