@@ -1,5 +1,10 @@
 ## Visual Programming -C# Database Connection Using XAMPP
 
+![image](https://github.com/user-attachments/assets/1a10e02d-26bc-40cb-9f1c-cbc120528db6)
+
+![image](https://github.com/user-attachments/assets/a7549ebb-9965-4e82-b9e0-e84922394221)
+
+
 
 ### 1. Select Query
 The database and table is created in the XAMPP and the Apache + MySQL services are up.
