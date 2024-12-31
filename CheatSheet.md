@@ -1011,3 +1011,22 @@ ADO: ActiveX Data Objects
     - List and RichTextBox
     - Sync and Async
     - Label and TextBox
+
+## Final
+1. 
+  - A) Exceptions and Exception handling in C# with examples
+  - B) Write a C#.NET program that receives two numbers from keyboard and show their sum using a message box. Handle the exception for the null values of variable. (7+7.5)
+
+2. 
+  - A) Discuss .NET Framework in detail with examples (5 + 5)
+  - B) 
+
+3. 
+  - A) Discuss the database providers supportable with C#.NET in detail with examples (7.5 + 7.5)
+  - B) Write down a data entry program that saves the data in emp table MySQL(XAMPP) with columns empno, ename and salary.
+
+4. Discuss with examples (10 Marks)
+  - Timer and picture box
+  - print dialog and color dialog
+  -
+  - interface and abstract class
