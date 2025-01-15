@@ -1001,6 +1001,45 @@ ADO: ActiveX Data Objects
   - GridView
 
 
+---
+# VP Setup Guide
+
+### 1. SQL Server Connection String
+
+To connect to SQL Server using a connection string, use the following configuration:
+
+```
+Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
+```
+
+### 2. Create a Database in Visual Studio 2022
+
+Follow these steps to create a database in Visual Studio 2022:
+
+1. Open **Server Explorer**.
+2. Right-click **Data Connections** and select **Add Connection**.
+3. In the **Server Name** field, enter `localhost\SQLEXPRESS`.
+4. Click **Test Connection** to ensure that the connection is successful.
+5. Check **Trust Server Certificate** if required.
+6. Enter your desired **Database Name** (e.g., `xyz`).
+7. Click **OK** to create the database.
+
+
+
+### 3. Application Exit Command
+
+To exit the application programmatically, use the following command in your application code:
+
+```csharp
+Application.Exit();
+```
+
+### 4. Video Reference
+
+You can refer to this tutorial video for more guidance:  
+[SQL Server Setup Video Tutorial](https://www.youtube.com/watch?v=QwEwRJDxkUE&list=PLXLkA7FAishqDcbZhq5U-mEsSOEcRaJIg&index=8)
+---
+
 
 ## Mid
 1. Control Structure, OOP, Selection sort in console (7 Marks)
@@ -1013,6 +1052,7 @@ ADO: ActiveX Data Objects
     - Label and TextBox
 
 ## Final
+
 1. 
   - A) Exceptions and Exception handling in C# with examples
   - B) Write a C#.NET program that receives two numbers from keyboard and show their sum using a message box. Handle the exception for the null values of variable. (7.5 +7.5)
